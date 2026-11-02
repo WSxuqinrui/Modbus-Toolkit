@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Modbus master tool icon</title>
+  <!-- Original, font-independent artwork; no third-party logo or image. -->
+  <defs>
+    <linearGradient id="background" x1="8" y1="8" x2="248" y2="248" gradientUnits="userSpaceOnUse"><stop stop-color="#1B3A60"/><stop offset="1" stop-color="#0D223D"/></linearGradient>
+    <linearGradient id="accent" x1="54" y1="50" x2="202" y2="203" gradientUnits="userSpaceOnUse"><stop stop-color="#55A8FF"/><stop offset="1" stop-color="#68E7ED"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#background)" stroke="#345477" stroke-width="2"/>
+  <path d="M66 62H190" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <g fill="url(#accent)"><circle cx="66" cy="62" r="12"/><circle cx="190" cy="62" r="12"/></g>
+  <path d="M68 192V106L128 154L188 106V192" fill="none" stroke="url(#accent)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

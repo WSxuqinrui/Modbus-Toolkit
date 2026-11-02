@@ -1,0 +1,12 @@
+**/验证/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.exe
+*.zip
+*.tmp
+**/layout.json
+**/主机配置.json
+**/从机配置.json

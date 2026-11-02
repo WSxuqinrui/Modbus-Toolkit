@@ -1,0 +1,228 @@
+﻿{
+  "Version": 1,
+  "Connection": {
+    "Mode": 5,
+    "Host": "127.0.0.1",
+    "Port": 502,
+    "Com": "",
+    "Baud": 9600,
+    "Parity": "None",
+    "StopBits": "1",
+    "DataBits": 8,
+    "TimeoutMs": 1500,
+    "Unit": 1
+  },
+  "Display": {
+    "Parity": "None",
+    "DataBits": 8,
+    "Version": 4,
+    "Com": "",
+    "Areas": [
+      {
+        "Values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ItemRules": [],
+        "Start": 0,
+        "Count": 10,
+        "DefaultRule": {
+          "Decimals": 3,
+          "Operation": "*",
+          "Unit": "",
+          "Offset": 0,
+          "Operand": 1,
+          "ByteOrder": "ABCD",
+          "DataType": "UInt16"
+        },
+        "ItemLabels": []
+      },
+      {
+        "Values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ItemRules": [],
+        "Start": 0,
+        "Count": 10,
+        "DefaultRule": {
+          "Decimals": 3,
+          "Operation": "*",
+          "Unit": "",
+          "Offset": 0,
+          "Operand": 1,
+          "ByteOrder": "ABCD",
+          "DataType": "UInt16"
+        },
+        "ItemLabels": []
+      },
+      {
+        "Values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ItemRules": [
+          {
+            "Rule": {
+              "Decimals": 3,
+              "Operation": "*",
+              "Unit": "kPa",
+              "Offset": 1,
+              "Operand": 2,
+              "ByteOrder": "ABCD",
+              "DataType": "Float32"
+            },
+            "Address": 0
+          },
+          {
+            "Rule": {
+              "Decimals": 0,
+              "Operation": "*",
+              "Unit": "",
+              "Offset": 0,
+              "Operand": 1,
+              "ByteOrder": "ABCD",
+              "DataType": "Int16"
+            },
+            "Address": 2
+          },
+          {
+            "Rule": {
+              "Decimals": 1,
+              "Operation": "/",
+              "Unit": "",
+              "Offset": 0,
+              "Operand": 10,
+              "ByteOrder": "ABCD",
+              "DataType": "UInt32"
+            },
+            "Address": 3
+          },
+          {
+            "Rule": {
+              "Decimals": 3,
+              "Operation": "*",
+              "Unit": "",
+              "Offset": 0,
+              "Operand": 1,
+              "ByteOrder": "DCBA",
+              "DataType": "Float64"
+            },
+            "Address": 6
+          }
+        ],
+        "Start": 0,
+        "Count": 10,
+        "DefaultRule": {
+          "Decimals": 3,
+          "Operation": "*",
+          "Unit": "",
+          "Offset": 0,
+          "Operand": 1,
+          "ByteOrder": "ABCD",
+          "DataType": "UInt16"
+        },
+        "ItemLabels": [
+          {
+            "Address": 0,
+            "Name": "压力值",
+            "Unit": "kPa"
+          },
+          {
+            "Address": 2,
+            "Name": "有符号数据",
+            "Unit": ""
+          },
+          {
+            "Address": 3,
+            "Name": "累计计数",
+            "Unit": "次"
+          },
+          {
+            "Address": 6,
+            "Name": "双精度测量",
+            "Unit": "℃"
+          }
+        ]
+      },
+      {
+        "Values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ItemRules": [
+          {
+            "Rule": {
+              "Decimals": 3,
+              "Operation": "*",
+              "Unit": "",
+              "Offset": 0,
+              "Operand": 1,
+              "ByteOrder": "DCBA",
+              "DataType": "Float32"
+            },
+            "Address": 0
+          }
+        ],
+        "Start": 0,
+        "Count": 10,
+        "DefaultRule": {
+          "Decimals": 3,
+          "Operation": "*",
+          "Unit": "",
+          "Offset": 0,
+          "Operand": 1,
+          "ByteOrder": "ABCD",
+          "DataType": "UInt16"
+        },
+        "ItemLabels": [
+          {
+            "Address": 0,
+            "Name": "输入测量值",
+            "Unit": "V"
+          }
+        ]
+      }
+    ],
+    "Mode": 5,
+    "StopBits": "1",
+    "Unit": 1,
+    "Port": 502,
+    "Ip": "127.0.0.1",
+    "Baud": 9600,
+    "CardOrder": []
+  },
+  "PollIntervalMs": 500
+}
